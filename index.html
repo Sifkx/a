@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+ <head> 
+  <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+  <meta charset="UTF-8"> 
+  <meta name="Viewport" content="Width=device-width,initial-scale=1.0"> 
+  <title>Chess Website</title> 
+  <script>  
+    </script>
+ </head>  
+ <body> 
+  <center> 
+   <button onclick="dark()">Dark Mode</button> 
+   <br> 
+   <br> 
+   <nav> 
+    <a href="blog.html">Blog</a> 
+    <a href="contacts.html">Contacts</a> 
+    <a href="about.html">About</a> 
+   </nav> 
+   <br> 
+   <iframe src="https://duckduckgo.com/search.html?prefill=Search the Website" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe> 
+   <datalist id="search"> <option value="Home"> </option><option value="Blog"> </option><option value="Contacts"> </option></datalist> 
+   <h1><span class="s">W</span>elcome to <span class="s">M</span>y <span class="s">W</span>ebsite</h1> 
+   <script>  
+     function dark() {
+     var element = document.body;
+     element.classList.toggle("dark");
+     }
+     </script> 
+  </center>  
+  <style>  
+    nav {
+    border:2px ridge black;
+    display:block;
+    background-color:black;
+    border-radius:5px;
+    box-shadow:4px 4px 4px grey;
+    }
+    a {
+    padding:20px;
+    text-decoration:none;
+    display:inline-block;
+    font-size:19px;
+    text-align:center;
+    font-family: Georgia;
+    color:cyan;
+    user-select:none;
+    }
+    a:hover {
+    background-color:green;
+    cursor:pointer;
+    }
+    h1 {
+    text-align:center;
+    font-size:35px;
+    color:red;
+    text-shadow:1px 1px 2px black;
+    font-family:georgia;
+    font-variant:small-caps;
+    font-style:italic;
+    font-weight:bold;
+    
+    }
+    body {
+    background-color:linen;
+    }
+    .s {
+    color:blue;
+    }
+    .dark {
+    background-color:black;
+    color:white;
+    }
+    #h {
+    height:30px;
+    width:400px;
+    font-family: San serif;
+    font-weight:bold;
+    }
+    
+    </style> 
+  <footer> 
+   <p class="programminghero">Learned and developed this site with <a href="http://www.programming-hero.com">Programming Hero</a></p> 
+  </footer>
+ </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="Width=device-width,initial-scale=1.0" />
+    <title> Blog </title>
+    </head>
+    <body>
+    <center>
+      </center>
+     <a href="index.html">Back</a>
+       <center>
+       <h2> Welcome to My Blog </h2>
+       <br>
+       <br>
+       <br>
+       <br>
+       <p id="demo"></p>
+       </center>
+       <script> 
+       var par = "Hi,there I gladly welcome you to the blog Section, if you want to see my Blog, just go through this link : http://formativeyearsofmine.blogspot.com";
+       var body = document.getElementById("demo");
+       var x = 0;
+       setInterval(type, 100);
+       function type() {
+       if (x < par.length) {
+       demo.innerHTML += par[x];
+       x++;
+       }
+       }
+        </script>
+    </body> 
+    <style>  
+    h2 {
+    text-align:center;
+    font-family: georgia;
+    color:yellow;
+    }
+    body {
+    background-image:url("https://i.ibb.co/H430tRC/photo-1599606464354-8324d37efb6c.jpg");
+    background-repeat:no-repeat;
+    background-color:black;
+    }
+    img {
+    height:300px;
+    width:420px;
+    }
+    p {
+    font-size:17px;
+    color:#9df9ef;
+    }
+
+    </style>
+</html>

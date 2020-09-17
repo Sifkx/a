@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <meta charset="UTF-8" /"
+    <meta name="Viewport" content="Width=device-width,initial-scale=1.0" />
+    <title>Contacts </title>
+    </head>
+    <body>
+    <center>
+    <button onclick="dark()">Dark Mode</button>
+    </center>
+    <a href="index.html">Back</a>
+    <fieldset>  
+     <legend><h1>Contact  </h1></legend>
+     <p><span class="sut">D</span>on't hesitate to reach out with the contact information below, or send a message using the form. </p>
+     <h3> Get in Touch </h3>
+     <address>Flat no: 203,Manjul Shree Apartment,Ramjaipal Nagar,Gola Road,Danapur,Patna,Bihar 801503 <br> INDIA  </address>
+     <h3>Send Us a Message!  </h3>
+     <h4>Name  </h4>
+     <form autocomplete="off" action="null">
+     <input type="Name" id="name" /> 
+     <h4> E-mail </h4>
+     <input type="email" name="email" id="name" required/>
+     <h4>Message  </h4>
+     <textarea placeholder="Message">  </textarea>
+     <br>
+     <button>Submit</button>
+     <input type="reset" />
+     <p>Follow me!</p>
+     <img src="https://i.ibb.co/R63yCQT/downloadfile.png" alt="downloadfile" border="0">
+     <img class="d" src="https://i.ibb.co/6RWnymp/580b57fcd9996e24bc43c521.png" alt="580b57fcd9996e24bc43c521" border="0">
+     <img src="https://i.ibb.co/g9RJbPT/square-linkedin-512.png" alt="square-linkedin-512" border="0">
+     <img class="d" src="https://i.ibb.co/SdCDs7B/Pinterest-Icon-icon-icons-com-52901.png" alt="Pinterest-Icon-icon-icons-com-52901" border="0">
+     <a href="mailto:sujitstkcs@gmail.com"><img src="https://i.ibb.co/gWDBm70/email-14-xxl.png" alt="email-14-xxl" border="0"></a>
+     </fieldset>
+     </form>
+     <script> 
+     function dark() {
+     var element = document.body;
+     element.classList.toggle("dark");
+     }
+      </script>
+     
+    </body> 
+    <style>  
+    body {
+    background-color:linen;
+    }
+    h1 {
+    text-align:center;
+    font-family: georgia;
+    color:orange;
+    font-variant:small-caps;
+    }
+    textarea {
+    height:200px;
+    width:200px;
+    }
+    #name {
+    color:blue;
+    font-family: Georgia;
+    }
+   .dark {
+    background-color:black;
+    color:white;
+    }
+    h3 {
+    font-family: Cursive;
+    font-size:25px;
+    }
+    p {
+    font-variant:small-caps;
+    font-style:italic;
+    font-weight:bold;
+    }
+    .sut {
+    font-size:30px;
+    font-style:none;
+    color:green;
+    cursor:pointer;
+    }
+    img {
+    height:40px;
+    width:40px;
+    border-radius:100px;
+    cursor:pointer;
+    }
+    .d {
+    border-radius:10px;
+    }
+    </style>
+</html>

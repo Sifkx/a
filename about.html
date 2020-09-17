@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="Width=device-width,initial-scale=1.0" />
+    <title> About Me </title>
+    </head>
+    <body>
+    <center>
+    <button onclick="dark()">Dark Mode</button>
+    </center>
+     <a href="index.html">Back</a>
+     <fieldset>  
+    <legend> <h2> <span class="s">A</span>ll about Me! </h2></legend>
+     <h3>My Introduction  </h3>
+     <center>
+     <img src="https://i.ibb.co/crtsPjB/iconfinder-2-avatar-2754578-120514.png" alt="iconfinder-2-avatar-2754578-120514" border="0">
+     <h4> Sujit Kumar Singh </h4>
+     </center>
+     <p>Hello,I am glad you came here.So here is something about me:</p>
+     <ul>
+     <li>Web Developer</li>
+     <li>Pro Gamer</li>
+     <li>Blogger</li>
+     </ul>
+     <p>My favorite Games:</p>
+     <ul>
+     <li>Shadow Fight 2</li>
+     <li>Sniper Gun 3d</li>
+     </ul>
+     <p>My favorite foods:</p>
+     <ul>
+     <li>Pizza</li>
+     <li>Momos</li>
+     <li>All foods</li>
+     </ul>
+     <p>My Hobbies</p>
+     <ul>
+     <li>Reading StoryBooks</li>
+     <li>Best known for mischief</li>
+     </ul>
+     <p>My code Profile:</p>
+     <h4>HTML: <progress min="0" max="100" value="90"></progress>  </h4>
+     <h4>CSS: <progress min="0" max="100" value="90"></progress>  </h4>
+     <h4>Python: <progress min="0" max="100" value="10"></progress>  </h4>
+     </fieldset>
+     <script>
+     function dark() {
+     var element = document.body;
+     element.classList.toggle("dark");
+     }
+     </script>
+    </body> 
+    <footer><marquee> © Not for Copyright </marquee></footer>
+    <style>  
+    body {
+    background-color:linen;
+    padding:5px;
+    }
+    h2 {
+    text-align:center;
+    color:red;
+    font-family: georgia;
+    font-size:35px;
+    font-variant:small-caps;
+    }
+    h3 {
+    color:green;
+    font-family:georgia;
+    font-size:25px;
+    font-variant:small-caps;
+    text-align:center;
+    }
+    img {
+    height:140px;
+    width:140px;
+    border-radius:120px;
+    }
+    footer {
+    text-align:center;
+    }
+    ul li {
+    font-weight:bold;
+    }
+    .s {
+    color: blue;
+    font-size:40px;
+    }
+    .dark {
+    background-color:black;
+    color:white;
+    }
+    </style>
+</html>
